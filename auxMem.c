@@ -1,6 +1,6 @@
 #include "simple_shell.h"
 /**
- * _memcopy - The copies information
+ * _memcopy - This copies information
  * @newptr: destnation pointer
  * @ptr: source pointer
  * @size: size of new pounter
@@ -52,7 +52,7 @@ void *_reallocate(void *ptr, unsigned int old_size, unsigned int new_size)
 	return (newptr);
 }
 /**
- * _reallocatedp - To reallocate memory block of double pointer
+ * _reallocatedp - reallocate memory block of double pointer
  * @ptr: double pointer
  * @old_size: size of allocated ptr space
  * @new_size: new size of new memory block

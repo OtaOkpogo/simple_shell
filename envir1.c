@@ -1,6 +1,6 @@
 #include "simple_shell.h"
 /**
- * cmp_env_name - compares env variables names
+ * cmp_env_name - It compares env variables names
  * with d name passed
  * @nenv: name of d environment variable
  * @name: name passed
@@ -22,7 +22,7 @@ int cmp_env_name(const char *nenv, const char *name)
 	return (i + 1);
 }
 /**
- * _getenvir - get an environment variable
+ * _getenvir - To get an environment variable
  * @name: name of d environment variable
  * @_environ: environment variable
  *
@@ -54,7 +54,7 @@ char *_getenvir(const char *name, char **_environ)
 }
 
 /**
- * _envir - prints d environment variables
+ * _envir - This prints d environment variables
  *
  * @data_sh: data relevant
  * Return: 1 on success

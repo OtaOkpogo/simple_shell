@@ -1,7 +1,7 @@
 #include "simple_shell.h"
 
 /**
- * execLine - To fins builtins and commands
+ * execLine - finds builtins and commands
  *
  * @datash: relevant data (args)
  * Return: 1 on success.
