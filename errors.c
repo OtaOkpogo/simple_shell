@@ -1,7 +1,7 @@
 #include "Shell.h"
 
 /**
- *_eputs - To print an input string
+ *_eputs - prints an input string
  * @str: the string to be printed
  *
  * Return: Nothing
@@ -42,7 +42,7 @@ int _eputchar(char c)
 }
 
 /**
- * _putfd - This writes the character c to given fd
+ * _putfd - writes the character c to given fd
  * @c: The character to print
  * @fd: The filedescriptor to write to
  *
@@ -65,7 +65,7 @@ int _putfd(char c, int fd)
 }
 
 /**
- *_putsfd -Function prints an input string
+ *_putsfd - This prints an input string
  * @str: the string to be printed
  * @fd: the filedescriptor to write to
  *

@@ -1,7 +1,7 @@
 #include "Shell.h"
 
 /**
- * is_chain - To test if current char in buffer is a chain delimeter
+ * is_chain - test if current char in buffer is a chain delimeter
  * @info: the parameter struct
  * @buf: the char buffer
  * @p: address of current position in buf
@@ -140,7 +140,7 @@ int replace_vars(info_t *info)
 }
 
 /**
- * replace_string - This replaces string
+ * replace_string - replaces string
  * @old: address of old string
  * @new: new string
  *
